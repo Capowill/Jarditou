@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/mobiles.css">
+
+
+</head>
+
+<body>
+    <header>
+
+
+
+        <div>
+            <img class="img1" src="assets/images/jarditou_logo.jpg" width="600" height="250" alt="Logo Jarditou"
+                title="Logo Jarditou" />
+
+            <p class="droite">Tout le jardin</p>
+        </div>
+        <p>La qualité depuis 70 ans</p>
+    </header>
+
+    <ul>
+        <li>
+            <a href="index.html">Acceuil</a>
+        </li>
+        <li>
+            <a href="Tableau.html">Tableau</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <img id="promo" src="assets/images/promotion.jpg" alt="promotion" title="promotion" />
+
+
+    <h1>Contact</h1>
+    <p>Ces champs sont obligatoires *</p>
+
+    <form method="post">
+        <fieldset class="fieldset">
+            <legend>Coordonnées</legend>
+            Votre nom* : <input type="text" name="nom"><br>
+            Votre prénom* : <input type="text" name="prénom"><br>
+            Sexe* : <br>
+            <input type="radio" name="sex" value="Féminin"> Féminin
+            <input type="radio" name="sex" value="Masculin"> Masculin
+            <br>
+
+            Date Naissance* : <input type="date" name="ddn"> <br>
+            Code postal : <input type="text" name="cp"><br>
+            adresse : <input type="text" name="adresse"><br>
+            Ville : <input type="text" name="Ville"><br>
+            Email* : <input type="email" name="email" placeholder="Exemple@mail.com"><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset class="fieldset">
+            <legend>Votre demande</legend>
+            Sujet* : <select name="Sujet" size="1">
+                <option value="Mes commandes">Mes commandes</option>
+                <option value="Question sur un produit">Question sur un produit</option>
+                <option value="Reclamation">Reclamation</option>
+                <option value="Autres">Autres</option>
+            </select>
+            <br>
+            Votre question : <textarea name="commentaire" rows="10" cols="50"></textarea>
+
+        </fieldset>
+        <br>
+        <input type="checkbox" name="Confirmation" value="Confirmation">J'accepte le traitement informatique de ce
+        formulaire.
+        <br>
+
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+
+    </form>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="">Mentions légales</a>
+            </li>
+            <li>
+                <a href="">Horaires</a>
+            </li>
+            <li>
+                <a href="">Plan du site</a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
